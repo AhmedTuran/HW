@@ -1,0 +1,7 @@
+﻿[*.cs]
+
+# IDE0021: Use block body for constructors
+csharp_style_expression_bodied_constructors = true:silent
+
+# Default severity for analyzer diagnostics with category 'Style'
+dotnet_analyzer_diagnostic.category-Style.severity = none
